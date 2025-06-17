@@ -1,6 +1,7 @@
 import './App.css';
 
 function App() {
+  const name = 'Clay';
   return (
     <div className="App">
       <header className="App-header">
@@ -8,9 +9,7 @@ function App() {
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
         </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
+        <h1>Hello, {name}</h1>
         <p>
           <a
             className="App-link"
